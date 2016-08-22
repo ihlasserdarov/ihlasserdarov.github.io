@@ -76,7 +76,7 @@ footer {
 	font-size: 14px;
 	position: relative;
 	bottom: 0;
-	width: 760px;
+	max-width: 760px;
 	padding: 10px 10px;
 	line-height: 1.2;
 	text-align: center;
@@ -215,7 +215,7 @@ ul.tab-menu li a.active .fa {
 }
 
 .tab-content1 p {
-	width: 560px;
+	max-width: 560px;
 	margin-bottom: 1.5em;
 }
 
@@ -453,3 +453,88 @@ ul.tab-menu li a.active .fa {
 	vertical-align: baseline;
 }
 /*======================Media Quores===============================*/
+
+@media screen and (max-width: 800px) {
+	#container {
+		margin: 90px 10px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.tab-content2 a {
+		margin: 0 calc(50% - 137.5px);
+	}
+
+	.tab-content2 h2 {
+		text-align: center;
+	}
+
+	.tab-content2 a {
+		margin-bottom: 10px;
+	}
+
+	.tab-content2 .cont-2 a {
+		margin-left: calc(50% - 137.5px);
+	}
+
+	.tab-content2 .cont-3 a {
+		margin-bottom: 30px;
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	.tab-content1 p {
+		margin: 0 10px;
+	}
+
+	.tab-content2 .effect a {
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.menu-text {
+		display: none;
+	}
+
+	.tab-menu li a {
+		padding: 0;
+	}
+
+	.counter {
+		margin-top: 30px;
+	}
+
+	.counter .number {
+		margin: 0 auto;
+		float: none;
+	}
+
+	.counter .text {
+		margin: 10px 10px;
+	}
+
+	.counter .text h3 {
+		clear: both;
+		float: none;
+	}
+
+	.counter .text p {
+		clear: both;
+		text-align: center;
+	}
+
+	.tab-content4 {
+		margin: 0 10px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 570px) {
+	.tab-content4 .skills {
+		float: none;
+		clear: both;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+}
