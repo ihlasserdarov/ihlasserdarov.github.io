@@ -1,0 +1,236 @@
+html {
+	border: 20px solid #FEF7EC;
+	width: 100%;
+	height: 3250px;
+}
+
+div {
+	display: block;
+}
+
+* {
+	box-sizing: border-box;
+}
+/*------------------------------*/
+
+/*------------------------------*/
+.text {
+	display: block;
+	background-color: white;
+	position: absolute;
+	top: 210px;
+	left: 204px;
+	width: 465px;
+	height: 160px;
+}
+
+.text h1 {
+	margin-top: -10px;
+	font-family: Playfair Display;
+	font-weight: normal;
+	font-size: 34px;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+h1 a {
+	font-size: 25px;
+	text-decoration: none;
+	color: rgba(243, 172, 43, 0.8);
+	transition-duration: 0.9s;
+	font-family: Times New Roman;
+}
+
+h1 a:hover {
+	color: #f3ac2b;
+	transition-duration: 0.5s;
+}
+/*Иконки*/
+
+em.icons1 {
+	font-size: 20px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	color: white;
+	background-color: black;
+	transition-duration: 0.4s;
+	padding-top: 8.5px;
+	margin-top: 30px;
+}
+
+em.icons2 {
+	font-size: 20px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	color: white;
+	background-color: black;
+	transition-duration: 0.3s;
+	padding-top: 8.5px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+em.fa:not(.fa-twitter) {
+	margin-left: 20px;
+}
+
+em.icons1:hover, em.icons2:hover {
+	background-color: #f3ac2b;
+	transition-duration: 0.3s;
+}
+
+/*----------------------------*/
+
+/*Контейнеры*/
+.photos-container1 {
+	background-color: white;
+	width: 465px;
+	height: 2618px;
+	position: absolute;
+	top: 176px;
+	right: 205px;
+}
+
+.photos-container2 {
+	background-color: white;
+	width: 465px;
+	height: 2618px;
+	position: absolute;
+	top: 520px;
+	left: 205px;
+}
+/*--------------------------*/
+/*Правила для всех элементов*/
+.photo {
+	background-color: black;
+	width: 100%;
+	height: 647px;
+	overflow: hidden;
+}
+
+.photo img {
+	width: 100%;
+	vertical-align: middle;
+	transform: scale(1.1);
+	opacity: 0.5;
+	transition-duration: 0.9s;
+}
+
+.photo img:hover {
+	transform: scale(1);
+	opacity: 1;
+	transition-duration: 0.9s;
+}
+
+.item-text h2 {
+	text-align: center;
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+/*-------------------------*/
+/*Фото 1*/
+.photo-text1 {
+	position: absolute;
+	top: 11.45%;
+	left: 41.4%;
+}
+/*-------------------------*/
+/*Фото 2*/
+.wildlife {
+	margin-top: 10px;
+}
+
+.photo-text2 {
+	position: absolute;
+	top: 37%;
+	left: 41.4%;
+}
+/*-------------------------*/
+/*Фото 3*/
+.faces {
+	margin-top: 10px;
+}
+
+.photo-text3 {
+	position: absolute;
+	top: 62%;
+	left: 41.4%;
+}
+/*-------------------------*/
+/*Фото 4*/
+.cities {
+	margin-top: 10px;
+}
+
+.photo-text4 {
+	position: absolute;
+	top: 87%;
+	left: 41.4%;
+}
+/*-------------------------*/
+/*Фото 5*/
+.photo-text5 {
+	position: absolute;
+	top: 11.8%;
+	left: 38%
+}
+/*-------------------------*/
+/*Фото 6*/
+.food {
+	margin-top: 10px;
+}
+
+.photo-text6 {
+	position: absolute;
+	top: 36%;
+	left: 42.5%;
+}
+/*-------------------------*/
+/*Фото 7*/
+.nature1 {
+	margin-top: 10px;
+}
+
+.photo-text7 {
+	position: absolute;
+	top: 61%;
+	left: 42.6%;
+}
+/*-------------------------*/
+/*Фото 8*/
+.travel {
+	margin-top: 10px;
+}
+
+.photo-text8 {
+	position: absolute;
+	top: 86%;
+	left: 42.6%;
+}
+/*-------------------------*/
+.page-footer {
+	display: block;
+	background-color: white;
+	position: absolute;
+	top: 2850px;
+	right: 14%;
+	width: 465px;
+	height: 130px;
+}
+
+footer section p {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 1;
+	margin-left: 20px;
+}
+/*--------------------------*/

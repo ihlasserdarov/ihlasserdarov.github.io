@@ -1,0 +1,15 @@
+Сайт плагина:
+
+http://pixlayout.polycreative.ru/
+
+
+
+Подключение к странице:
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.pixlayout.0.9.7.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$.pixlayout({clip: true, src: "maket.jpg", show:true, center:true, top:0, left:0, pervious: false});
+}); 
+</script>
