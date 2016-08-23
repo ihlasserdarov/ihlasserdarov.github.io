@@ -537,4 +537,8 @@ ul.tab-menu li a.active .fa {
 		margin: 0 auto;
 		margin-top: 20px;
 	}
+
+	.tab-content1 .social-icons li a {
+		padding: 0 10px;
+	}
 }
