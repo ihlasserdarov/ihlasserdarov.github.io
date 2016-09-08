@@ -457,12 +457,8 @@ ul.tab-menu li a.active .fa {
 /*======================Media Quores===============================*/
 
 @media screen and (max-width: 800px) {
-	.tabs {
+	#container {
 		margin: 90px 10px;
-	}
-
-	body {
-		background-position: right top;
 	}
 }
 
