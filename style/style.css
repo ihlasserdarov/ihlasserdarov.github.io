@@ -494,9 +494,6 @@ ul.tab-menu li a.active .fa {
 	.tab-content1 p {
 		margin: 0 10px;
 	}
-
-	.tab-content2 .effect a {
-	}
 }
 
 @media screen and (max-width: 600px) {
