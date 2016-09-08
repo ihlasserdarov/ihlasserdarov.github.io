@@ -460,11 +460,6 @@ ul.tab-menu li a.active .fa {
 	.tabs {
 		margin: 90px 10px;
 	}
-
-	body {
-		background-position: center center;
-		background-repeat: no-repeat;
-	}
 }
 
 @media screen and (max-width: 650px) {
