@@ -460,6 +460,10 @@ ul.tab-menu li a.active .fa {
 	#container {
 		margin: 90px 10px;
 	}
+
+	.tabs {
+		margin: 90px 10px;
+	}
 }
 
 @media screen and (max-width: 650px) {
