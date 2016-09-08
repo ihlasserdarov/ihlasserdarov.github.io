@@ -15,7 +15,7 @@ body {
 	line-height: 1.5;
 	color: rgba(255, 255, 255, 0.7);
 	-webkit-background-size: cover;
-	background-size: 100% 100%;
+	background-size: cover;
 }
 
 * {
@@ -182,7 +182,7 @@ ul.tab-menu li a.active .fa {
 
 .tab-content1 {
 	max-width: 550px;
-	height: auto;
+	height: 100%;
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
@@ -305,7 +305,7 @@ ul.tab-menu li a.active .fa {
 /*=============================Tab Content 2===========================*/
 .tab-content2 {
 	max-width: 580px;
-	height: auto;
+	height: 100%;
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
@@ -367,7 +367,7 @@ ul.tab-menu li a.active .fa {
 
 .tab-content3 {
 	max-width: 550px;
-	height: auto;
+	height: 100%;
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
@@ -395,7 +395,7 @@ ul.tab-menu li a.active .fa {
 
 .tab-content4 {
 	max-width: 520px;
-	height: auto;
+	height: 100%;
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
