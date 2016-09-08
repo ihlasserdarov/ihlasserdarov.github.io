@@ -305,7 +305,7 @@ ul.tab-menu li a.active .fa {
 /*=============================Tab Content 2===========================*/
 .tab-content2 {
 	max-width: 580px;
-	height: 460px;
+	height: auto;
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
