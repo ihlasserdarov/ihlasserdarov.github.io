@@ -6,8 +6,7 @@ body {
 }
 
 body {
-	width: 100%;
-	height: auto;
+	max-width: 100%;
 	background: url(../img/bg.png) no-repeat 100% 0% fixed;
 	font-family: 'Open Sans', Arial, sans-serif;
 	font-weight: 300;
