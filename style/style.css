@@ -17,6 +17,9 @@ body {
 	line-height: 1.5;
 	color: rgba(255, 255, 255, 0.7);
 	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 	background-position: center top;
 }
