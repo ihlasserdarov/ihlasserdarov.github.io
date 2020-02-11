@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
 	var pieChart = function() {
 		$('.chart').easyPieChart({
 			scaleColor: false,
